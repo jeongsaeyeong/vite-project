@@ -16,4 +16,7 @@ Vite는 합리적인 기본 설정을 제공합니다. 프레임워크 지원이
 <summary>git 업로드 설정</summary>
 ` unable to access 'https://github.com/jeongsaeyeong/vite-project.git/': The requested URL returned error: 403 `
 
-바뀌나요? 
+이러한 일이 일어나는 것은 remote 해서 연결한 내 주소와 아이디, 비밀번호가 일치하지 않아서 그렇다. 이를 해결하는 방법은 여러 가지가 있다. 
+
+1) git remote -v를 해서 remote 된 주소가 내 주소가 맞는지 확인한다. 
+2) 주소가 맞다면, 자격 증명 관리자 > windows 자격 증명 > 내 깃헙 주소 > 사용자 이름(github 이름)과 암호(github 비밀번호)를 수정한다. 
