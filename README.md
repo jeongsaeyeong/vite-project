@@ -20,3 +20,10 @@ Vite는 합리적인 기본 설정을 제공합니다. 프레임워크 지원이
 
 1) git remote -v를 해서 remote 된 주소가 내 주소가 맞는지 확인한다. 
 2) 주소가 맞다면, 자격 증명 관리자 > windows 자격 증명 > 내 깃헙 주소 > 사용자 이름(github 이름)과 암호(github 비밀번호)를 수정한다. 
+3) git에 저장한다.
+git add .
+git status
+git commit -m "dd"
+git push -u origin main
+
+여러 방법을 시도한 것 중에서 가장 정확하게 잘 들어갔다.
