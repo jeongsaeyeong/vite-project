@@ -10,6 +10,14 @@ Vite는 빠르고 간결한 모던 웹 프로젝트 개발 경험에 초점을 �
 
 Vite는 합리적인 기본 설정을 제공합니다. 프레임워크 지원이나 다른 도구와의 통합은 플러그인을 통해 가능합니다. 
 
+## 구현 기능
+- smooth 효과 적용
+- GSAP를 이용한 가로 효과
+- javascript 모듈 기능 활용
+- 웹표준 준수를 위한 스킵 메뉴, aria, role 적용
+- vite bulid 작업
+- netilfy 배포 
+
 ## 트러블 슈팅
 - git 업로드 설정: 시작부터 오류가 났다. 
 <details>
@@ -23,7 +31,7 @@ Vite는 합리적인 기본 설정을 제공합니다. 프레임워크 지원이
 3) git에 저장한다.
 git add .
 git status
-git commit -m "dd"
+git commit -m "최종 완성본"
 git push -u origin main
 
 여러 방법을 시도한 것 중에서 가장 정확하게 잘 들어갔다.
